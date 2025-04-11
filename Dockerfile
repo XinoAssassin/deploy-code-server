@@ -29,7 +29,7 @@ RUN code-server --install-extension dracula-theme.theme-dracula
 
 
 # Install apt packages:
-RUN sudo apt-get install -y ubuntu-make
+#RUN sudo apt-get install -y nodejs
 
 # Copy files: 
 COPY deploy-container/myTool /home/coder/myTool
