@@ -25,8 +25,9 @@ RUN sudo chown -R coder:coder /home/coder/.local
 # Install a VS Code extension:
 # Note: we use a different marketplace than VS Code. See https://github.com/cdr/code-server/blob/main/docs/FAQ.md#differences-compared-to-vs-code
 RUN code-server --install-extension cweijan.vscode-office
-RUN code-server --install-extension dracula-theme.theme-dracula
-
+RUN code-server --install-extension william-voyek.vscode-nginx
+RUN code-server --install-extension github.github-vscode-theme
+RUN code-server --install-extension redhat.vscode-yaml
 
 # Install apt packages:
 #RUN sudo apt-get install -y nodejs
