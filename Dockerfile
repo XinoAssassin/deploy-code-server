@@ -28,6 +28,7 @@ RUN code-server --install-extension cweijan.vscode-office
 #RUN code-server --install-extension william-voyek.vscode-nginx
 RUN code-server --install-extension github.github-vscode-theme
 RUN code-server --install-extension redhat.vscode-yaml
+RUN code-server --install-extension antfu.slidev
 
 # Install apt packages:
 #RUN sudo apt-get install -y nodejs
